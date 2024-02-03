@@ -1,0 +1,40 @@
+.section{
+    display:flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    background: rgb(37, 36, 36);
+    transition: background 2s ease-out ;
+}
+button:hover{
+    background: rgb(255, 19, 19);
+}
+
+nav{
+    min-height: 10vh;
+    background-color:rgb(37, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.75s ease-out ;
+}
+
+.nav-slide{
+    transform: translateY(-100%);
+    opacity: 1;
+
+}
+p{
+    opacity: 1;
+    transition: opacity 1s ease-out 0.75s;
+}
+.fade{
+    opacity: 0;
+}
